@@ -1,0 +1,913 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.Container{
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  width: 100%;
+}
+
+/*  Здесь начало */
+
+.cardWrapper{
+  margin-top: 100px;
+  min-height: 60vh;
+  height: auto;
+  width: 80%;
+}
+
+.myCard{
+  padding: 15px;
+  background-color: bisque;
+  margin-left: 100px;
+  width: 400px;
+  height: 200px;
+}
+
+.myCardHeader{
+  height: 40px;
+  width: 100%;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+.myCardPriority{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 25px;
+  color: red;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.myCardPriority p{
+  margin-left: 20px;
+  color: #8E8E8E;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.myCardDesc{
+  margin-top: 20px;
+  height: auto;
+  width: 300px;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.myCardDone{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.danger{
+  cursor: pointer;
+  background-color: red;
+  border: none;
+}
+
+.danger p{
+  color: white;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Здесь конец */
+
+.banner{
+  margin-top: 100px;
+  width: 100%;
+  height: 575px;
+  display: flex;
+  flex-direction: column;
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+}
+.bannerHead{
+  width: 100%;
+}
+.bannerHead p{
+  margin:0px;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+.bannerMain{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.bannerLeft{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.bannerLeft p{
+  margin: 0px;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+.motto p{
+  margin: 0px;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+.motto{
+  border: 1px solid white;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.bannerRight{
+  height: 50px;
+  width: 10%;
+}
+.bannerRight img{
+  transition: 0.5s;
+  height: 95%;
+  width: 95%;
+}
+.bannerRight img:hover{
+  height: 100%;
+  width: 100%;
+}
+
+
+.Services{
+  margin-top: 200px;
+  width: 100%;
+  height: 115px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.serviceBox{
+  min-width: 20%;
+  display: flex;
+  padding: 15px;
+  background-color: #4A7AF4;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.serviceBox p{
+  font-size: 40px;
+  color: white;
+}
+
+
+.CardHolder{
+  margin-top: 100px;
+  padding-left: 20px;
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.carCard{
+  padding-left:10px;
+  /* padding-bottom: 10px; */
+  border-bottom: 1px solid black;
+  width: 100%;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.actionRow{
+  display: flex;
+  flex-direction: row-reverse;
+  height: 30px;
+  width: 100%;
+  align-items: center;
+}
+.actionRow img{
+  margin-right: 20px;
+  height: 25px;
+  width: 25px;
+}
+
+.cardBody{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+}
+
+.cardImage{
+  border: 1 px solid black;
+  width: 35%;
+  height: 100%;
+}
+.cardImage img{
+  width: 95%;
+  height: 85%;
+}
+
+.cardContent{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 100%;
+}
+
+.carName{
+  width: 100%;
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  height: 25px;
+  align-items: center;
+  font-weight: bold;
+}
+.cardDate{
+  margin-top:10px;
+  width: 100%;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  height: 25px;
+  align-items: center;
+  font-weight: 500;
+  color:#8E8E8E;
+}
+.cardDescription{
+  width: 100%;
+  height: auto;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+
+.categoryRow{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.categoryRow p{
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  color: #0DA048;
+}
+.answers{
+  display: flex;
+  margin-top: 20px;
+  height: 50px;
+  background-color: #4A7AF4;
+  width: 25%;
+  align-items: center;
+  justify-content: center;
+}
+.answers a{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.newActionRow{
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  width: 100%;
+  justify-content: flex-start;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.newActionRow a{
+  margin-right: 15px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+
+}
+
+.danger{color: red;}
+
+.edit{color: #4A7AF4;}
+
+.Search{
+  padding-left: 150px;
+  display: flex;
+  margin-top: 80px;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.searchInput{
+  padding-left: 40px;
+  box-sizing: border-box;
+  background-image: url('./search-512.jpg');
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
+  transition: width 0.4s ease-in-out;
+  width: 20%;
+  height: 45px;
+  border: 1px solid black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+.searchInput:focus{
+  width: 60%;
+  border: 1px solid #0DA048;
+}
+
+.companyHolder{
+  padding-left: 150px;
+  margin-top: 50px;
+  width: 100%;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+}
+
+.companyCard{
+  width: 55%;
+  height: 200px;
+  padding: 15px;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: row;
+}
+
+.companyImage{
+  width: 45%;
+  height: 100%;
+}
+
+.companyImage img{
+  width: 90%;
+  height: 100%;
+}
+
+.companyContent{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+}
+
+.companyName{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.companyCategories{
+  float: left;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.companyCategories p{
+  font-size: 14px;
+  color: #0DA048;
+  margin-right: 20px;
+}
+
+.companyDesc{
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  font-size: 14px;
+}
+
+.companyMore{
+  display: flex;
+  width: 30%;
+  height: 50px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  background-color: #4A7AF4;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.companyMore a{
+  color: white;
+  text-decoration: none;
+}
+
+.loginWrapper{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.loginBox{
+  border: 1px solid black;
+  margin-top: 100px;
+  height: 400px;
+  width: 450px;
+}
+.loginBox form{
+  margin-top: 20px;
+  padding-left: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputField{
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  width: 90%;
+}
+
+.inputName{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  height: 22px;
+}
+.inputLogin{
+  margin-top: 20px;
+  width: 100%;
+  height: 25px;
+  display: flex;
+}
+.inputDesc{
+  margin-top: 20px;
+  width: 100%;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+}
+.inputDesc textarea{
+  width: 100%;
+  height: 200px;
+  color: black;
+}
+.inputLogin input{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  width: 100%;
+  height: 100%;
+}
+.buttonLogin{
+  display: flex;
+  flex-direction: row-reverse;
+  height: 40px;
+  width: 90%;
+  padding: 5px;
+}
+.inputCheck{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 150px;
+}
+.checkBox{
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.checkBox input{
+  margin-right: 10px;
+}
+.buttonLogin button{
+  background-color: #0DA048;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  width:15%;
+  color: white;
+  border:none;
+  cursor:pointer;
+}
+.registerBox{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 30%;
+}
+.registerText{
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  color: #8E8E8E;
+  font-size: 14px;
+}
+.registerButton{
+  cursor: pointer;
+  margin-top: 10px;
+  display: flex;
+  background-color: #4A7AF4;
+  width: 50%;
+  height: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+.registerButton a{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+.registerWrapper{
+  margin-top: 100px;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.registerLeft{
+  width: 40%;
+  height: 90%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.registerSubmit{
+  padding-left: 10px;
+  width: 100%;
+  height: 40px;
+}
+
+.registerSubmit button{
+  cursor: pointer;
+  padding: 5px;
+  background-color: #4A7AF4;
+  border: none;
+  color: white;
+  font-size: 20px;
+}
+
+
+.userWrapper{
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.userBlock{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+}
+
+.userBio{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 100%;
+}
+.userName{
+  height: 45px;
+  padding: 5px;
+  width: 100%;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+}
+
+.userDate{
+  height: 30px;
+  padding: 5px;
+  width: 100%;
+  color: #8E8E8E;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.userCar{
+  height: 30px;
+  padding: 5px;
+  width: 100%;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+.addCardRow{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+}
+.addCard{
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 50px;
+  background-color: #0DA048;
+}
+
+.addCard a{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+.currentTasks{
+  width: 100%;
+  height: auto;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+.currentTasks hr{
+  width: 100%;
+  border: 1px solid black;
+}
+
+
+
+/* addCard part*/
+
+.addWrapper{
+  margin-top: 100px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addBlock{
+  width: 95%;
+  height: 98%;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.imageName{
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+}
+
+.textBlock{
+  width: 55%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+/* image adding block */
+
+.addImageWrapper{
+  width: 100%;
+  height: 70vh;
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.addImageBlock{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 80%;
+}
+.addImageBlock button{
+  color: white;
+  margin-top: 20px;
+  width: 20%;
+  background-color: #4A7AF4;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+.preview{
+  width: 200px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+.preview img{
+  height: 100%;
+  width: 100%;
+}
+
+.detailsWrapper{
+  margin-top: 100px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding-left: 20px;
+}
+
+.detailsBlock{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.detailsBlock hr{
+  width: 90%;
+  border: 2 px solid grey;
+}
+
+.boxRow{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+}
+
+.imageDetails{
+  width: 25%;
+  height: 200px;
+  margin-right: 20px;
+}
+.imageDetails img{
+  width: 100%;
+  height: 100%;
+}
+
+.companyInfo{
+  width: auto;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.companyDate{
+  margin-top: 10px;
+  height: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color:#8E8E8E;
+}
+
+.companyContacts{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 60px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+.companyContacts p{
+  margin:0px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.servicesList{
+  width: auto;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+.servicesList div{
+  border-radius: 6px;
+  display: flex;
+  margin-right: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: white;
+  background-color: #0DA048;
+  padding:5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.descriptionBlock{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.descriptionBlock p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.requestWrapper{
+  padding-left: 20px;
+  margin-top: 100px;
+  height: auto;
+  width: 50%;
+}
+
+
+
+.responseWrapper{
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+}
+
+.responseHandler{
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.response{
+  border-bottom: 1px solid black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 40%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.responseHeader{
+  margin-bottom:50px;
+  width: 150px;
+  font-weight: 600px;
+  font-size: 25px;
+  padding: 10px;
+  border-bottom: 2px solid gray;
+}
+
+.rCompanyName{
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.rPrice{
+  font-size: 28px;
+}
+
+.rTime{
+  color: #0DA048;
+  margin-bottom: 20px;
+}
+
+.rLink{
+  
+  display: flex;
+  margin-top: 15px;
+  width: 100px;
+  height: 25px;
+  background-color: #4A7AF4;
+  justify-content: center;
+  align-items: center;
+}
+
+.rLink a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
